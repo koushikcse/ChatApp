@@ -12,7 +12,7 @@ Backend: NodeJS server + MongoDB database
 Frontend: AngularJS
 
 #### Database Schema
-chatRooms (collection)
+__chatRooms (collection)__
 
 name | type        | required | default | unique
 ---- | ----------- | -------- | ------- | ------
@@ -24,7 +24,7 @@ password | String  | false    |         |
 c_date   | Date    | true     |         |   
 l_date   | Date    | true     |         |   
 
-members (collection)
+__members (collection)__
 
 name | type        | required | default | unique
 ---- | ----------- | -------- | ------- | ------
@@ -33,7 +33,7 @@ name | String      | true     |         |
 email | String     | true     |         | true
 password | String  | true     |         |   
 
-chats (collection)
+__chats (collection)__
 
 name | type        | required | default | unique
 ---- | ----------- | -------- | ------- | ------
