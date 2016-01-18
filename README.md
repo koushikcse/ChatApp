@@ -28,9 +28,8 @@ __members (collection)__
 name | type        | required | default | unique
 ---- | ----------- | -------- | ------- | ------
 _id  | ObjectID    |          |         |    
-name | String      | true     |         |   
-email | String     | true     |         | true
-password | String  | true     |         |   
+chatRoom_id | Pointer (chatRooms)| true |         |   
+username | String  | true     |         | true (for each chatRoom_id)  
 
 __chats (collection)__
 
