@@ -18,8 +18,7 @@ name | type        | required | default | unique
 ---- | ----------- | -------- | ------- | ------
 _id  | ObjectID    |          |         |    
 name | String      | true     |         |   
-link | String      | true     |         | true
-privacy  | Boolean | true     | false   |   
+privacy  | Boolean | false    | false   |   
 password | String  | false    |         |   
 c_date   | Date    | true     |         |   
 l_date   | Date    | true     |         |   
@@ -38,7 +37,7 @@ __chats (collection)__
 name | type        | required | default | unique
 ---- | ----------- | -------- | ------- | ------
 _id  | ObjectID    |          |         |    
-chatRoom_id | Pointer (chatRooms)      | true     |         |   
-member_id | Pointer (members)     | true     |         |   
+chatRoom_id | Pointer (chatRooms)| true |         |   
+member_id | Pointer (members)| true     |         |   
 c_date | Date  | true     |         |   
 text | String  | true     |         |   
